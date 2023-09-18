@@ -1,70 +1,40 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Cheers (small ecommerce website)
 
-## Available Scripts
+Welcome to Cheers, a website that provides a user-friendly interface for exploring and searching through an extensive product database via a public API. Cheers is designed to help you easily access information about various products, including their names, descriptions, and images (when available). Whether you're browsing or searching for specific items, Cheers has got you covered.
 
-In the project directory, you can run:
 
-### `npm start`
+## Screenshots
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<img src="./src/assets/pic1.png" alt:"Home Page" />
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<img src="./src/assets/pic2.png" alt:"Search result 1" />
 
-### `npm test`
+<img src="./src/assets/pic3.png" alt:"Items" />
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<img src="./src/assets/pic4.png" alt:"Search result 2" />
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **View All Products:** Cheers displays all available products from the API, making it convenient to scroll through and explore the entire product catalog.
+- **Product Details:** For each product, you can view its name, description, and an accompanying image (if available). If there is no image provided in the API data, Cheers shows an alternative banner related to products.
+- **Search Functionality:** Cheers allows you to search for specific products within the API. You can easily find products by name, making it efficient to locate items of interest.
+- **Buttons:** Due to a limitation in the API, Cheers can only fetch up to 78 items per page. The website offers previous and next buttons to navigate through multiple pages and see which products are currently displayed.
+## Usage
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Viewing Products:**
 
-### `npm run eject`
+- **Homepage:** Upon visiting the Cheers website, you will land on the homepage, where you will see the products displayed in a user-friendly layout.
+- **Product Details:** Search any product to view it's details, including its name, description, and image (if available).
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Searching for Products:**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Search Bar:** Located at the top of the page, there is a search bar. Enter keywords related to the product you are looking for. Cheers will instantly filter the products to match your search criteria.
+- **Search Results:** The search results will display products that match your query in real-time.
+## Usage
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **Maximum Items per Page:** The API allows fetching a maximum of 78 items per page. Therefore, you may need to use buttons for previous and next page to view all available products.
+- **API Data:** The website relies on the API for product information, so the availability of images and the accuracy of product descriptions are dependent on the API's data quality.
+- **Limited Search:** The search functionality is limited to searching for products only by name and availability of products per page.

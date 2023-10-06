@@ -6,13 +6,10 @@ Welcome to Cheers, a website that provides a user-friendly interface for explori
 
 ## Screenshots
 
-<img src="./src/assets/pic1.png" alt:"Home Page" />
+![image](https://github.com/Tribhuvan-Kumar/cheers-website/assets/142161520/b8f1c33a-de5e-4906-a9d3-0917bb0772ec)
 
-<img src="./src/assets/pic2.png" alt:"Search result 1" />
+![image](https://github.com/Tribhuvan-Kumar/cheers-website/assets/142161520/b45b805b-45d1-405b-bfef-06e4faba8fbc)
 
-<img src="./src/assets/pic3.png" alt:"Items" />
-
-<img src="./src/assets/pic4.png" alt:"Search result 2" />
 
 
 ## Features
